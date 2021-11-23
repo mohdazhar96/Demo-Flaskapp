@@ -4,6 +4,6 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
   
-  service:
-  type: ClusterIP
+service:
+  type: NodePort
   port: 7077
