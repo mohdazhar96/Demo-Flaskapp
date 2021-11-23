@@ -1,5 +1,5 @@
 image:
-  repository: azhar008/flaskapp:1.1
+  repository: "azhar008/flaskapp:1.1"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
