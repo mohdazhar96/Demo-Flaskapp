@@ -1,8 +1,6 @@
 FROM python
 
-WORKDIR /code
-
-COPY python/ .
+COPY ./ .
 
 RUN pip install flask
 
