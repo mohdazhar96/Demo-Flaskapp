@@ -1,6 +1,6 @@
 FROM python
 
-COPY Demo-Flaskapp/ .
+COPY  . .
 
 RUN pip install flask
 
